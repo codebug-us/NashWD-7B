@@ -26,6 +26,8 @@
 
 1. Now let's split up our navbar into the right and left sections. [Here](https://getuikit.com/docs/navbar#multiple-navigations) is the documentation that explains how to do that.
 
+1. Figure out how to make your text light! *Hint* I'm using the word light instead of white for a reason!
+
 1. Add some links into your navigation that bring the user to other webpages. *Hint* you'll do this by adding a link to the href of each `<a>` tag in your navigation.
 
 
