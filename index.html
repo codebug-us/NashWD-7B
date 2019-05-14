@@ -12,6 +12,67 @@
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+		<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
 
+	    <ul class="uk-slideshow-items">
+	        <li>
+	            <img src="images/beach1.jpg" alt="" uk-cover>
+	            <div class="uk-position-center uk-position-small uk-text-center">
+	                <h2 uk-slideshow-parallax="x: 100,-100">Beautiful</h2>
+	                <p uk-slideshow-parallax="x: 200,-200">Paradise is right around the corner.</p>
+	            </div>
+	        </li>
+	        <li>
+	            <img src="images/beach2.jpg" alt="" uk-cover>
+	            <div class="uk-position-center uk-position-small uk-text-center">
+	                <h2 uk-slideshow-parallax="x: 100,-100">Boost</h2>
+	                <p uk-slideshow-parallax="x: 200,-200">Can do anything you need.</p>
+	            </div>
+	        </li>
+	        <li>
+	            <img src="images/beach3.jpg" alt="" uk-cover>
+	            <div class="uk-position-center uk-position-small uk-text-center">
+	                <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">SHEEESH</h2>
+	                <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">look at that blue ass water.</p>
+	            </div>
+	        </li>
+	    </ul>
+
+	    	<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+	    	<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+	</div>
+	<div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent uk-light" uk-navbar>
+        	<div class="uk-navbar-left">
+				<span uk-icon="icon: happy; ratio: 2"></span>
+				<ul class="uk-navbar-nav">
+				<Li class="uk-active">
+					<a href="#">BEACH</a>
+				</li>
+				</ul>
+			</div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="https://www.boostjourneys.com/">Vibes</a></li>
+                    <li><a href="http://www.rollingloud.com/">Tunes</a></li>
+                    <li>
+                        <a href="https://www.shakeshack.com/">Food</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li class="uk-nav-header">Header</li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </body>
 </html>
