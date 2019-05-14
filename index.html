@@ -12,6 +12,49 @@
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-
+	<div class="uk-position-top uk-position-z-index uk-light">
+		<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+	        <div class="uk-navbar-left">
+	            <ul class="uk-navbar-nav">
+	                <li><a href="https://www.google.com/maps/place/Malibu,+CA/data=!4m2!3m1!1s0x80e81da9f908d63f:0x93b72d71b2ea8c5a?sa=X&ved=2ahUKEwj1ma38uJviAhXpnuAKHVtWA7UQ8gEwAHoECAoQAQ"><span uk-icon="location"></span></a></li>
+	                <li class="uk-active"><a href="file:///Users/alexandramiller/Desktop/coding/NashWD-7B/index.html#">The Beach</a></li>
+	            </ul>
+	        </div>
+	        <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li><a href="https://open.spotify.com/playlist/37i9dQZF1DX83I5je4W4rP">Tunes</a></li>
+                    <li><a href="https://www.tripadvisor.com/Restaurants-g32676-Malibu_California.html">Food</a></li>
+                    <li><a href="https://www.instagram.com/explore/tags/malibu/?hl=en">Vibes</a></li>
+                </ul>
+        	</div>
+	    </nav>
+	</div>
+	<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+    	<ul class="uk-slideshow-items" id="slideshowList">
+        	<li>
+            	<img src="images/beach1.jpg" id="beach1" alt="" uk-cover>
+            	<div class="uk-position-center uk-position-small uk-text-center uk-light">
+            	    <h2 class="uk-margin-remove">Find Your Beach</h2>
+            	    <p class="uk-margin-remove">It's around here somewhere.</p>
+            	</div>
+        	</li>
+        	<li>
+            	<img src="images/beach2.jpg" alt="" uk-cover>
+        		<div class="uk-position-center uk-position-small uk-text-center uk-light">
+        	    	<h2 class="uk-margin-remove">Find Your Beach</h2>
+        	    	<p class="uk-margin-remove">It's around here somewhere.</p>
+        		</div>
+        	</li>
+        	<li>
+            	<img src="images/beach3.jpg" alt="" uk-cover>
+        		<div class="uk-position-center uk-position-small uk-text-center uk-light">
+            	    <h2 class="uk-margin-remove">Find Your Beach</h2>
+            	    <p class="uk-margin-remove">It's around here somewhere.</p>
+            	</div>
+        	</li>
+    	</ul>
+    	<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    	<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+	</div>
 </body>
 </html>
